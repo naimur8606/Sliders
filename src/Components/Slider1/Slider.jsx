@@ -34,6 +34,7 @@ export default function Slider() {
 
   return (
     <div>
+      <h1 className='text-4xl font-bold text-blue-500 text-center mt-10 mb-5'>Slider-1</h1>
       <div className='hidden lg:block'>
         <Swiper navigation modules={[Navigation]} className="mySwiper">
           {numberToArray(products.length / 4)?.map(index => (

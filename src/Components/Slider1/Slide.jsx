@@ -35,7 +35,7 @@ const Slide = ({product}) => {
               <del className='text-gray-500'>${price}</del>
             </h4>
             <p>{short_description}</p>
-            <button className='displayHidden text-xl font-medium text-white py-2 px-5 rounded-lg bg-blue-500 mt-5'>Add to Cart</button>
+            <button className='displayHidden text-xl font-medium text-white py-2 px-5 rounded-lg bg-blue-500 hover:bg-black mt-5'>Add to Cart</button>
           </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Slide from "./Slide";
+import summerSell from '../../assets/summerSell.png'
 
 const TabSliders = () => {
 
@@ -32,16 +33,21 @@ const TabSliders = () => {
       };
 
     return (
+        <div>
+            <h1 className='text-4xl font-bold text-blue-500 text-center mt-10 mb-5'>Slider-2</h1>
         <div className="my-5 flex justify-between">
-            <div className="lg:w-1/2">
-
+            <div className="lg:w-7/12">
+            <img className="h-80 mt-12" src={summerSell} alt="" />
             </div>
-            <div className="lg:w-1/2">
+            <div className="pl-2 lg:w-5/12">
                 <div>
+                    <div className="flex justify-between">
+                    <h3 className="uppercase border-b-4 pb-2 border-blue-500 text-2xl font-bold">Best Sellers</h3>
                     <div className="flex space-x-2">
                         <p onClick={() => goToSlide(0)} className={`${value === 0 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
                         <p onClick={() => goToSlide(1)} className={`${value === 1 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
                         <p onClick={() => goToSlide(2)} className={`${value === 2 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
+                    </div>
                     </div>
                     <div>
                         {/* {
@@ -69,44 +75,9 @@ const TabSliders = () => {
                 </div>
             </div>
         </div>
+        </div>
     );
 
 };
 
 export default TabSliders;
-
-
-// import React, { useRef } from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-// export default function Tab() {
-//   const swiperRef = useRef(null);
-
-//   const goToSlide = (index) => {
-//     if (swiperRef.current && swiperRef.current.swiper) {
-//       swiperRef.current.swiper.slideTo(index);
-//     }
-//   };
-
-//   return (
-//     <>
-//       <Swiper
-//         ref={swiperRef}
-//         className="mySwiper"
-//       >
-//         <SwiperSlide>Slide 1</SwiperSlide>
-//         <SwiperSlide>Slide 2</SwiperSlide>
-//         <SwiperSlide>Slide 3</SwiperSlide>
-//         <SwiperSlide>Slide 4</SwiperSlide>
-//         <SwiperSlide>Slide 5</SwiperSlide>
-//         <SwiperSlide>Slide 6</SwiperSlide>
-//         <SwiperSlide>Slide 7</SwiperSlide>
-//         <SwiperSlide>Slide 8</SwiperSlide>
-//         <SwiperSlide>Slide 9</SwiperSlide>
-//       </Swiper>
-
-//       <button onClick={() => goToSlide(2)}>Go to Slide 3</button>
-//     </>
-//   );
-// }
