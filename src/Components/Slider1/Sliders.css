@@ -1,0 +1,6 @@
+.displayHidden{
+  display: none;
+}
+.displayHover:hover .displayHidden{
+  display: block;
+}
