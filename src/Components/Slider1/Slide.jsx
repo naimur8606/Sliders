@@ -5,7 +5,7 @@ import { TfiReload } from "react-icons/tfi";
 const Slide = ({product}) => {
     const {img, discount_percent, title, price, rating, short_description} = product;
     return (
-        <div className='displayHover p-2 md:h-64 flex justify-between  items-center shadow-sm'>
+        <div className='displayHover p-2 md:h-64 lg:h-[270px] flex justify-between  items-center shadow-sm'>
           <div className='w-5/12 relative'>
             <div className='w-full relative'>
               <h5 className='absolute top-3 md:top-16 lg:top-3 left-5 text-white bg-blue-500 rounded-[50%] p-2'>-{discount_percent}%</h5>
