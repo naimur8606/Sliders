@@ -1,6 +1,7 @@
 # React Slider Components
 
 This repository contains two React slider components (`Slider` and `TabSliders`) that are designed to display product information using the [Swiper](https://swiperjs.com/) library. The sliders fetch product data from a JSON file and present it in an interactive and visually appealing way.
+## [Go to DEMO](https://sliders.freelancernaimur.com/)
 
 ## Slider-1 Component
 
