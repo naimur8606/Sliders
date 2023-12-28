@@ -34,9 +34,6 @@ export default function Slider() {
 
   return (
     <div>
-      <div>
-        Slider1
-      </div>
       <div className='hidden lg:block'>
         <Swiper navigation modules={[Navigation]} className="mySwiper">
           {numberToArray(products.length / 4)?.map(index => (
@@ -57,7 +54,6 @@ export default function Slider() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <p>hi</p>
       </div>
     </div>
   );

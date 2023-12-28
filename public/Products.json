@@ -1,110 +1,123 @@
 [
     {
-        "id": 1,
-        "title": "Luxurious Moisturizing Cream",
-        "rating": 4.5,
-        "price": 29.99,
-        "short_description": "Hydrating cream for smooth and radiant skin.",
-        "discount_percent": 15,
-        "img": "https://i.ibb.co/bgPg7Ht/p-1.png"
+      "id": 1,
+      "title": "Luxurious Moisturizing Cream",
+      "rating": 4.5,
+      "price": 29.99,
+      "short_description": "Hydrating cream for smooth and radiant skin.",
+      "discount_percent": 15,
+      "img": "https://i.ibb.co/bgPg7Ht/p-1.png",
+      "category": "Skincare"
     },
     {
-        "id": 2,
-        "title": "Anti-Aging Serum Elixir",
-        "rating": 4.2,
-        "price": 49.99,
-        "short_description": "Revitalize and firm your skin with our powerful serum.",
-        "discount_percent": 10,
-        "img": "https://i.ibb.co/JmGH4N0/p-2.webp"
+      "id": 2,
+      "title": "Anti-Aging Serum Elixir",
+      "rating": 4.2,
+      "price": 49.99,
+      "short_description": "Revitalize and firm your skin with our powerful serum.",
+      "discount_percent": 10,
+      "img": "https://i.ibb.co/JmGH4N0/p-2.webp",
+      "category": "Beauty"
     },
     {
-        "id": 3,
-        "title": "Gentle Exfoliating Scrub",
-        "rating": 4.8,
-        "price": 19.99,
-        "short_description": "Exfoliate and rejuvenate for a fresh, radiant complexion.",
-        "discount_percent": 20,
-        "img": "https://i.ibb.co/98B45GC/p-3.jpg"
+      "id": 3,
+      "title": "Gentle Exfoliating Scrub",
+      "rating": 4.8,
+      "price": 19.99,
+      "short_description": "Exfoliate and rejuvenate for a fresh, radiant complexion.",
+      "discount_percent": 20,
+      "img": "https://i.ibb.co/98B45GC/p-3.jpg",
+      "category": "Health"
     },
     {
-        "id": 4,
-        "title": "Refreshing Facial Cleanser",
-        "rating": 4.0,
-        "price": 15.99,
-        "short_description": "Gently cleanses and purifies your skin without drying.",
-        "discount_percent": 25,
-        "img": "https://i.ibb.co/BBxDbcb/p-4.jpg"
+      "id": 4,
+      "title": "Refreshing Facial Cleanser",
+      "rating": 4.0,
+      "price": 15.99,
+      "short_description": "Gently cleanses and purifies your skin without drying.",
+      "discount_percent": 25,
+      "img": "https://i.ibb.co/BBxDbcb/p-4.jpg",
+      "category": "Skincare"
     },
     {
-        "id": 5,
-        "title": "Deep Hydration Mask",
-        "rating": 4.6,
-        "price": 34.99,
-        "short_description": "Intense hydration for a plump and supple complexion.",
-        "discount_percent": 12,
-        "img": "https://i.ibb.co/RBrt1yK/p-5.jpg"
+      "id": 5,
+      "title": "Deep Hydration Mask",
+      "rating": 4.6,
+      "price": 34.99,
+      "short_description": "Intense hydration for a plump and supple complexion.",
+      "discount_percent": 12,
+      "img": "https://i.ibb.co/RBrt1yK/p-5.jpg",
+      "category": "Beauty"
     },
     {
-        "id": 6,
-        "title": "Revitalizing Eye Cream",
-        "rating": 4.3,
-        "price": 39.99,
-        "short_description": "Reduce puffiness and dark circles for brighter eyes.",
-        "discount_percent": 18,
-        "img": "https://i.ibb.co/KrL2Y9M/p-6.webp"
+      "id": 6,
+      "title": "Revitalizing Eye Cream",
+      "rating": 4.3,
+      "price": 39.99,
+      "short_description": "Reduce puffiness and dark circles for brighter eyes.",
+      "discount_percent": 18,
+      "img": "https://i.ibb.co/KrL2Y9M/p-6.webp",
+      "category": "Health"
     },
     {
-        "id": 7,
-        "title": "Daily Sunscreen SPF 50",
-        "rating": 4.7,
-        "price": 22.99,
-        "short_description": "Protect your skin from harmful UV rays every day.",
-        "discount_percent": 15,
-        "img": "https://i.ibb.co/jfcFCVd/p-7.jpg"
+      "id": 7,
+      "title": "Daily Sunscreen SPF 50",
+      "rating": 4.7,
+      "price": 22.99,
+      "short_description": "Protect your skin from harmful UV rays every day.",
+      "discount_percent": 15,
+      "img": "https://i.ibb.co/jfcFCVd/p-7.jpg",
+      "category": "Skincare"
     },
     {
-        "id": 8,
-        "title": "Acne Control Spot Treatment",
-        "rating": 4.1,
-        "price": 17.99,
-        "short_description": "Targeted treatment for blemish-prone areas.",
-        "discount_percent": 30,
-        "img": "https://i.ibb.co/xHNTyXp/p-8.jpg"
+      "id": 8,
+      "title": "Acne Control Spot Treatment",
+      "rating": 4.1,
+      "price": 17.99,
+      "short_description": "Targeted treatment for blemish-prone areas.",
+      "discount_percent": 30,
+      "img": "https://i.ibb.co/xHNTyXp/p-8.jpg",
+      "category": "Beauty"
     },
     {
-        "id": 9,
-        "title": "Anti-Aging Serum Elixir",
-        "rating": 4.2,
-        "price": 49.99,
-        "short_description": "Revitalize and firm your skin with our powerful serum.",
-        "discount_percent": 10,
-        "img": "https://i.ibb.co/JmGH4N0/p-2.webp"
+      "id": 9,
+      "title": "Anti-Aging Serum Elixir",
+      "rating": 4.2,
+      "price": 49.99,
+      "short_description": "Revitalize and firm your skin with our powerful serum.",
+      "discount_percent": 10,
+      "img": "https://i.ibb.co/JmGH4N0/p-2.webp",
+      "category": "Health"
     },
     {
-        "id": 10,
-        "title": "Daily Sunscreen SPF 50",
-        "rating": 4.7,
-        "price": 22.99,
-        "short_description": "Protect your skin from harmful UV rays every day.",
-        "discount_percent": 15,
-        "img": "https://i.ibb.co/jfcFCVd/p-7.jpg"
+      "id": 10,
+      "title": "Daily Sunscreen SPF 50",
+      "rating": 4.7,
+      "price": 22.99,
+      "short_description": "Protect your skin from harmful UV rays every day.",
+      "discount_percent": 15,
+      "img": "https://i.ibb.co/jfcFCVd/p-7.jpg",
+      "category": "Skincare"
     },
     {
-        "id": 11,
-        "title": "Refreshing Facial Cleanser",
-        "rating": 4.0,
-        "price": 15.99,
-        "short_description": "Gently cleanses and purifies your skin without drying.",
-        "discount_percent": 25,
-        "img": "https://i.ibb.co/BBxDbcb/p-4.jpg"
+      "id": 11,
+      "title": "Refreshing Facial Cleanser",
+      "rating": 4.0,
+      "price": 15.99,
+      "short_description": "Gently cleanses and purifies your skin without drying.",
+      "discount_percent": 25,
+      "img": "https://i.ibb.co/BBxDbcb/p-4.jpg",
+      "category": "Beauty"
     },
     {
-        "id": 12,
-        "title": "Revitalizing Eye Cream",
-        "rating": 4.3,
-        "price": 39.99,
-        "short_description": "Reduce puffiness and dark circles for brighter eyes.",
-        "discount_percent": 18,
-        "img": "https://i.ibb.co/KrL2Y9M/p-6.webp"
+      "id": 12,
+      "title": "Revitalizing Eye Cream",
+      "rating": 4.3,
+      "price": 39.99,
+      "short_description": "Reduce puffiness and dark circles for brighter eyes.",
+      "discount_percent": 18,
+      "img": "https://i.ibb.co/KrL2Y9M/p-6.webp",
+      "category": "Health"
     }
-]
+  ]
+  
