@@ -5,8 +5,8 @@ const Slide = ({ products }) => {
         <ul>
             {
                 products?.map((product, idx) =>
-                    <li key={idx} className="flex space-x-4 py-2 shadow-sm">
-                        <img className="w-1/3 h-32 rounded" src={product?.img} alt="" />
+                    <li key={idx} className="flex items-center space-x-4 py-2 shadow-sm">
+                        <img className="w-1/3 h-32 md:h-40 lg:h-32 rounded" src={product?.img} alt="" />
                         <div>
                             <Rating name="read-only" value={product?.rating} readOnly /> <br />
                             <h4 className='text-xl font-semibold'>{product?.title}</h4>

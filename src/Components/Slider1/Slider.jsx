@@ -47,7 +47,7 @@ export default function Slider() {
         </Swiper>
       </div>
 
-      <div className='lg:hidden'>
+      <div className='lg:hidden p-1'>
         <Swiper navigation modules={[Navigation]} className="mySwiper">
           {products?.map((index, idx) => (
             <SwiperSlide key={idx}>

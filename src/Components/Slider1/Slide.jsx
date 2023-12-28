@@ -8,7 +8,7 @@ const Slide = ({product}) => {
         <div className='displayHover p-2 md:h-64 lg:h-[270px] flex justify-between  items-center shadow-sm'>
           <div className='w-5/12 relative'>
             <div className='w-full relative'>
-              <h5 className='absolute top-3 md:top-16 lg:top-3 left-5 text-white bg-blue-500 rounded-[50%] p-2'>-{discount_percent}%</h5>
+              <h5 className='absolute top-3 md:top-16 lg:top-3 left-5 text-white bg-[#3881f6a8] rounded-[50%] p-2'>-{discount_percent}%</h5>
               <img className='w-full' src={img} alt="" />
             </div>
             <div className='displayHidden'>

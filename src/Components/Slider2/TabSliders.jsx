@@ -30,51 +30,51 @@ const TabSliders = () => {
     const handleSlideChange = () => {
         const currentSlideIndex = swiperRef.current.swiper.realIndex;
         setValue(currentSlideIndex);
-      };
+    };
 
     return (
         <div>
             <h1 className='text-4xl font-bold text-blue-500 text-center mt-10 mb-5'>Slider-2</h1>
-        <div className="my-5 flex justify-between">
-            <div className="lg:w-7/12">
-            <img className="h-80 mt-12" src={summerSell} alt="" />
-            </div>
-            <div className="pl-2 lg:w-5/12">
-                <div>
-                    <div className="flex justify-between">
-                    <h3 className="uppercase border-b-4 pb-2 border-blue-500 text-2xl font-bold">Best Sellers</h3>
-                    <div className="flex space-x-2">
-                        <p onClick={() => goToSlide(0)} className={`${value === 0 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
-                        <p onClick={() => goToSlide(1)} className={`${value === 1 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
-                        <p onClick={() => goToSlide(2)} className={`${value === 2 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
-                    </div>
-                    </div>
+            <div className="my-5 p-3 lg:p-0 flex flex-col lg:flex-row justify-between">
+                <div className="lg:w-7/12">
+                    <img className="lg:h-80 w-full mb-5 lg:mb-0 lg:mt-12" src={summerSell} alt="" />
+                </div>
+                <div className="pl-2 lg:w-5/12">
                     <div>
-                        {/* {
+                        <div className="flex justify-between items-center">
+                            <h3 className="uppercase border-b-4 pb-2 border-blue-500 text-2xl font-bold">Best Sellers</h3>
+                            <div className="flex space-x-2">
+                                <p onClick={() => goToSlide(0)} className={`${value === 0 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
+                                <p onClick={() => goToSlide(1)} className={`${value === 1 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
+                                <p onClick={() => goToSlide(2)} className={`${value === 2 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
+                            </div>
+                        </div>
+                        <div>
+                            {/* {
                             displayProducts?.map((product, idx) =>
 
                                 <Slide key={idx} product={product}></Slide>
                             )
                         } */}
-                        <Swiper
-                            ref={swiperRef}
-                            className="mySwiper"
-                            onSlideChange={handleSlideChange}
-                        >
-                            <SwiperSlide>
-                                <Slide products={displaySkincareProducts}></Slide>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <Slide products={displayBeautyProducts}></Slide>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <Slide products={displayHealthProducts}></Slide>
-                            </SwiperSlide>
-                        </Swiper>
+                            <Swiper
+                                ref={swiperRef}
+                                className="mySwiper"
+                                onSlideChange={handleSlideChange}
+                            >
+                                <SwiperSlide>
+                                    <Slide products={displaySkincareProducts}></Slide>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <Slide products={displayBeautyProducts}></Slide>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <Slide products={displayHealthProducts}></Slide>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     );
 
