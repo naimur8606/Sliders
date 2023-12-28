@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Slide from "../Slider1/Slide";
+import Slide from "./Slide";
 
 const TabSliders = () => {
 
@@ -22,16 +22,21 @@ const TabSliders = () => {
     const goToSlide = (index) => {
         if (swiperRef.current && swiperRef.current.swiper) {
             swiperRef.current.swiper.slideTo(index);
-            setValue(value)
+            setValue(index)
         }
     };
 
+    const handleSlideChange = () => {
+        const currentSlideIndex = swiperRef.current.swiper.realIndex;
+        setValue(currentSlideIndex);
+      };
+
     return (
         <div className="my-5 flex justify-between">
-            <div className="lg:w-2/3">
+            <div className="lg:w-1/2">
 
             </div>
-            <div className="lg:w-1/3">
+            <div className="lg:w-1/2">
                 <div>
                     <div className="flex space-x-2">
                         <p onClick={() => goToSlide(0)} className={`${value === 0 ? 'w-10' : 'w-3'} h-3 bg-blue-500 rounded-lg`}></p>
@@ -48,31 +53,19 @@ const TabSliders = () => {
                         <Swiper
                             ref={swiperRef}
                             className="mySwiper"
+                            onSlideChange={handleSlideChange}
                         >
                             <SwiperSlide>
-                                {
-                                    displaySkincareProducts?.map((product, idx) =>
-                                        <Slide key={idx} product={product}></Slide>
-                                    )
-                                }
+                                <Slide products={displaySkincareProducts}></Slide>
                             </SwiperSlide>
                             <SwiperSlide>
-                                {
-                                    displayBeautyProducts?.map((product, idx) =>
-                                        <Slide key={idx} product={product}></Slide>
-                                    )
-                                }
+                                <Slide products={displayBeautyProducts}></Slide>
                             </SwiperSlide>
                             <SwiperSlide>
-                                {
-                                    displayHealthProducts?.map((product, idx) =>
-                                        <Slide key={idx} product={product}></Slide>
-                                    )
-                                }
+                                <Slide products={displayHealthProducts}></Slide>
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                    <button onClick={() => goToSlide(2)}>Go to Slide 3</button>
                 </div>
             </div>
         </div>
